@@ -10,10 +10,6 @@
             display: flex;
             justify-content: flex-end;
         }
-		
-		#cont {
-			font-size: 80px;
-		}
 
         #img {
             cursor: pointer;
@@ -49,11 +45,16 @@
         }
 
         #backToggle {
-            height: 20px;
-            width: 25px;
-            cursor: pointer;
-			user-select: none;
+            	height: 20px;
+            	width: 25px;
+            	cursor: pointer;
+	    	user-select: none;
         }
+
+	#cont {
+		font-size: 80px;
+		border: none;
+	}
     </style>
 
 </head>
@@ -63,7 +64,7 @@
     </div>
 	
     <div id="settingsBlock">
-		<div id="cont"></div>
+		<div id="cont" class="item"></div>
 	
         <div id="theader">
             <div class="item">Account</div>
