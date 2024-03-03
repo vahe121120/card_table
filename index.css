@@ -1,0 +1,49 @@
+#content {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        #img {
+            cursor: pointer;
+			user-select: none;
+			font-size: 50px;
+        }
+
+        #settingsBlock {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #theader {
+            border: 2px solid gray;
+            display: none;
+        }
+
+        .item {
+            border: 1px solid gray;
+            font-size: large;
+            font-family: sans-serif;
+            padding-top: 5px;
+            cursor: pointer;
+        }
+
+        .darkItem {
+            border: 1px solid gray;
+            display: flex;
+            justify-content: space-between;
+            font-size: large;
+            font-family: sans-serif;
+            padding-top: 5px;
+        }
+
+        #backToggle {
+            	height: 20px;
+            	width: 25px;
+            	cursor: pointer;
+	    	user-select: none;
+        }
+
+	#cont {
+		font-size: 80px;
+		border: none;
+	}
